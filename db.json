@@ -41,17 +41,20 @@
 		{
 			"id": 1,
 			"vendorId": 88,
-			"name": "Chicken & Cheese Tacos"
+			"name": "Chicken & Cheese Tacos",
+			"week": "12-20-2020"
 		},
 		{
 			"id": 2,
 			"vendorId": 88,
-			"name": "Falafel"
+			"name": "Falafel",
+			"week": "12-20-2020"
 		},
 		{
 			"id": 3,
 			"vendorId": 95,
-			"name": "Cheese Pizza"
+			"name": "Cheese Pizza",
+			"week": "12-10-2020"
 		}
 	],
 	"profile": {
