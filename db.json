@@ -41,20 +41,137 @@
 		{
 			"id": 1,
 			"vendorId": 88,
-			"name": "Chicken & Cheese Tacos",
-			"week": "12-20-2020"
+			"name": "Bean & Cheese Burrito",
+			"details": "A black been burrito filled with shredded cheese and lettuce on a flour tortilla.",
+			"price_to_vendor": 4,
+			"options": [
+				{
+					"id": 765,
+					"name": "No Cheese"
+				},
+				{
+					"id": 833,
+					"name": "Extra Cheese"
+				},
+				{
+					"id": 91,
+					"name": "Corn Tortilla"
+				},
+				{
+					"id": 1123,
+					"name": "No Chicken"
+				}
+			],
+			"image": "https://res.cloudinary.com/yay-lunch/image/upload/w_400/v1608060396/large_Chicken___Cheese_Ques_gnpg4z.jpg",
+			"categories": [
+				{ "id": 2, "category": "egg_free" },
+				{ "id": 3, "category": "vegetarian" }
+			],
+			"type": "meal"
+		},
+		{
+			"id": 62,
+			"vendorId": 88,
+			"name": "Chicken Ranch Salad",
+			"details": "Romaine, pepperjack cheese, carrots + tomatoes with grilled or fried chicken + ranch dressing.",
+			"price_to_vendor": 4,
+			"options": [
+				{
+					"id": 765,
+					"name": "No Cheese"
+				},
+				{
+					"id": 833,
+					"name": "Tofu"
+				},
+				{
+					"id": 91,
+					"name": "Grilled Chicken"
+				},
+				{
+					"id": 1123,
+					"name": "Vinaigrette Dressing"
+				},
+				{
+					"id": 1923,
+					"name": "Dressing on Side"
+				}
+			],
+			"image": "https://res.cloudinary.com/yay-lunch/image/upload/w_400/v1608060396/large_CHICKEN_RANCH_SALAD_lyrvbt.jpg",
+			"categories": [
+				{ "id": 1, "category": "gluten_free" },
+				{ "id": 2, "category": "egg_free" }
+			],
+			"type": "meal"
+		},
+		{
+			"id": 4,
+			"vendorId": 88,
+			"name": "Chocolate Chip Cookie",
+			"week": "12-20-2020",
+			"details": "Two all-natural adobo...",
+			"price_to_vendor": 1,
+			"options": [],
+			"categories": [],
+			"type": "add-on"
+		},
+		{
+			"id": 61,
+			"vendorId": 88,
+			"name": "Fruit Cup",
+			"details": "Pineapple, canteloupe, strawberries.",
+			"price_to_vendor": 1,
+			"options": [],
+			"categories": [],
+			"type": "add-on"
+		},
+		{
+			"id": 19,
+			"vendorId": 88,
+			"name": "Chicken and Rice",
+			"week": "12-20-2020",
+			"details": "Roasted chicken over tumeric-spiced rice and veggies.",
+			"price_to_vendor": 3,
+			"options": [
+				{
+					"id": 7115,
+					"name": "Extra Chicken"
+				},
+				{
+					"id": 7215,
+					"name": "Plain Rice"
+				}
+			],
+			"image": "https://res.cloudinary.com/yay-lunch/image/upload/w_400/v1608060395/large_Chicken___Rice_Platter_oaahsn.jpg",
+			"categories": [
+				{ "id": 1, "category": "gluten_free" },
+				{ "id": 2, "category": "egg_free" },
+				{ "id": 4, "category": "dairy_free" }
+			],
+			"type": "add-on"
 		},
 		{
 			"id": 2,
-			"vendorId": 88,
-			"name": "Falafel",
-			"week": "12-20-2020"
+			"vendorId": 92,
+			"name": "Kids Spud",
+			"details": "A genuine Idaho potato served with butter, cheddar-jack cheese, bacon, and sour cream.",
+			"price_to_vendor": 4,
+			"options": [],
+			"categories": [],
+			"type": "meal"
 		},
 		{
 			"id": 3,
 			"vendorId": 95,
 			"name": "Cheese Pizza",
 			"week": "12-10-2020"
+		}
+	],
+	"orders": [
+		{
+			"id": 19222112,
+			"item": 1,
+			"options": ,
 		}
 	],
 	"profile": {
