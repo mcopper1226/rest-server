@@ -25,5 +25,36 @@
 	],
 	"profile": {
 		"name": "typicode"
-	}
+	},
+	"vendors": [
+		{
+			"id": 88,
+			"display_name": "Moe's - CHESAPEAKE"
+		},
+		{
+			"id": 92,
+			"display_name": "Moe's - MIDLO BIG KIDS"
+		},
+		{
+			"id": 95,
+			"display_name": "McAllister's - MIDLO BIG KIDS"
+		}
+	],
+	"items": [
+		{
+			"id": 1,
+			"vendorId": 88,
+			"name": "Chicken & Cheese Tacos"
+		},
+		{
+			"id": 2,
+			"vendorId": 88,
+			"name": "Falafel"
+		},
+		{
+			"id": 3,
+			"vendorId": 95,
+			"name": "Cheese Pizza"
+		}
+	]
 }
