@@ -23,9 +23,6 @@
 			"postId": 1
 		}
 	],
-	"profile": {
-		"name": "typicode"
-	},
 	"vendors": [
 		{
 			"id": 88,
@@ -56,5 +53,8 @@
 			"vendorId": 95,
 			"name": "Cheese Pizza"
 		}
-	]
+	],
+	"profile": {
+		"name": "typicode"
+	}
 }
