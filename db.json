@@ -108,8 +108,7 @@
 			"id": 4,
 			"vendorId": 88,
 			"name": "Chocolate Chip Cookie",
-			"week": "12-20-2020",
-			"details": "Two all-natural adobo...",
+			"details": null,
 			"price_to_vendor": 1,
 			"options": [],
 			"categories": [],
@@ -129,7 +128,6 @@
 			"id": 19,
 			"vendorId": 88,
 			"name": "Chicken and Rice",
-			"week": "12-20-2020",
 			"details": "Roasted chicken over tumeric-spiced rice and veggies.",
 			"price_to_vendor": 3,
 			"options": [
@@ -148,7 +146,7 @@
 				{ "id": 2, "category": "egg_free" },
 				{ "id": 4, "category": "dairy_free" }
 			],
-			"type": "add-on"
+			"type": "meal"
 		},
 		{
 			"id": 2,
