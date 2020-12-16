@@ -622,38 +622,6 @@
 							"type": "add-on"
 						}
 					]
-				},
-				{
-					"id": 1236,
-					"luncher":{
-						"id": 122321234,
-						"name": "Leslie Thymer",
-						"vip": true,
-						"teacher": "Engels",
-						"grade": "3"
-					},
-					"order": [
-						{
-							"id": 19,
-							"name": "Chicken and Rice",
-							"options": [
-								{
-									"id": 7215,
-									"key": "Variations",
-									"name": "Plain Rice",
-									"upsell": 0
-								}
-							],
-							"type": "meal"
-						},
-						{
-							"id": 4,
-							"name": "Chocolate Chip Cookie",
-							"options": [],
-							"categories": [],
-							"type": "add-on"
-						}
-					]
 				}
 			]
 		}
