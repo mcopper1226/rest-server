@@ -44,22 +44,41 @@
 			"name": "Bean & Cheese Burrito",
 			"details": "A black been burrito filled with shredded cheese and lettuce on a flour tortilla.",
 			"price_to_vendor": 4,
+			"sides": [
+				"Chips",
+				"Salsa",
+				"Fresh Fruit"
+			],
 			"options": [
 				{
 					"id": 765,
-					"name": "No Cheese"
+					"key": "Variations",
+					"name": "No Cheese",
+					"upsell": 0
 				},
 				{
 					"id": 833,
-					"name": "Extra Cheese"
+					"key": "Variations",
+					"name": "Extra Cheese",
+					"upsell": 50
 				},
 				{
 					"id": 91,
-					"name": "Corn Tortilla"
+					"key": "Gluten Free Option",
+					"name": "Corn Tortilla",
+					"upsell": 100
 				},
 				{
 					"id": 1123,
-					"name": "No Chicken"
+					"key": "Vegetarian Option",
+					"name": "No Chicken",
+					"upsell": 0
+				},
+				{
+					"id": 7442,
+					"key": "Make It Big",
+					"name": "Extra Burrito",
+					"upsell": 300
 				}
 			],
 			"image": "https://res.cloudinary.com/yay-lunch/image/upload/w_400/v1608060396/large_Chicken___Cheese_Ques_gnpg4z.jpg",
@@ -75,26 +94,41 @@
 			"name": "Chicken Ranch Salad",
 			"details": "Romaine, pepperjack cheese, carrots + tomatoes with grilled or fried chicken + ranch dressing.",
 			"price_to_vendor": 4,
+			"sides": [
+				"Chips",
+				"Salsa",
+				"Fresh Fruit"
+			],
 			"options": [
 				{
 					"id": 765,
-					"name": "No Cheese"
+					"key": "Variations",
+					"name": "No Cheese",
+					"upsell": 0
 				},
 				{
 					"id": 833,
-					"name": "Tofu"
+					"key": "Vegetarian Option",
+					"name": "Tofu",
+					"upsell": 150
 				},
 				{
 					"id": 91,
-					"name": "Grilled Chicken"
+					"key": "Variations",
+					"name": "Grilled Chicken",
+					"upsell": 0
 				},
 				{
 					"id": 1123,
-					"name": "Vinaigrette Dressing"
+					"key": "Variations",
+					"name": "Vinaigrette Dressing",
+					"upsell": 0
 				},
 				{
 					"id": 1923,
-					"name": "Dressing on Side"
+					"key": "Variations",
+					"name": "Dressing on Side",
+					"upsell": 0
 				}
 			],
 			"image": "https://res.cloudinary.com/yay-lunch/image/upload/w_400/v1608060396/large_CHICKEN_RANCH_SALAD_lyrvbt.jpg",
@@ -130,14 +164,23 @@
 			"name": "Chicken and Rice",
 			"details": "Roasted chicken over tumeric-spiced rice and veggies.",
 			"price_to_vendor": 3,
+			"sides": [
+				"Chips",
+				"Salsa",
+				"Fresh Fruit"
+			],
 			"options": [
 				{
 					"id": 7115,
-					"name": "Extra Chicken"
+					"key": "Make It Big",
+					"name": "Extra Chicken",
+					"upsell": 200
 				},
 				{
 					"id": 7215,
-					"name": "Plain Rice"
+					"key": "Variations",
+					"name": "Plain Rice",
+					"upsell": 0
 				}
 			],
 			"image": "https://res.cloudinary.com/yay-lunch/image/upload/w_400/v1608060395/large_Chicken___Rice_Platter_oaahsn.jpg",
