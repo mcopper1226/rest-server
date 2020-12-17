@@ -185,12 +185,6 @@
 				},
 				{
 					"id": 7215,
-					"key": "Vegetarian Option",
-					"name": "Broccoli",
-					"upsell": 0
-				},
-				{
-					"id": 7215,
 					"key": "Variation",
 					"name": "No Sour Cream",
 					"upsell": 0
