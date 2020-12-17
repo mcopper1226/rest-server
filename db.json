@@ -62,7 +62,7 @@
 				{ "id": 2, "category": "egg_free" },
 				{ "id": 3, "category": "vegetarian" }
 			],
-			"type": "meal"
+			"is_extra": false
 		},
 		{
 			"id": 62,
@@ -112,7 +112,7 @@
 				{ "id": 1, "category": "gluten_free" },
 				{ "id": 2, "category": "egg_free" }
 			],
-			"type": "meal"
+			"is_extra": false
 		},
 		{
 			"id": 4,
@@ -122,7 +122,7 @@
 			"price_to_vendor": 1,
 			"options": [],
 			"categories": [],
-			"type": "add-on"
+			"is_extra": true
 		},
 		{
 			"id": 61,
@@ -132,7 +132,7 @@
 			"price_to_vendor": 1,
 			"options": [],
 			"categories": [],
-			"type": "add-on"
+			"is_extra": true
 		},
 		{
 			"id": 19,
@@ -165,7 +165,7 @@
 				{ "id": 2, "category": "egg_free" },
 				{ "id": 4, "category": "dairy_free" }
 			],
-			"type": "meal"
+			"is_extra": false
 		},
 		{
 			"id": 2,
@@ -173,9 +173,37 @@
 			"name": "Kids Spud",
 			"details": "A genuine Idaho potato served with butter, cheddar-jack cheese, bacon, and sour cream.",
 			"price_to_vendor": 4,
-			"options": [],
-			"categories": [],
-			"type": "meal"
+			"sides": [
+				"Chips",
+				"Salsa",
+				"Fresh Fruit"
+			],
+			"options": [
+				{
+					"id": 7115,
+					"key": "Make It Big",
+					"name": "Extra Protein",
+					"upsell": 200
+				},
+				{
+					"id": 7215,
+					"key": "Vegetarian Option",
+					"name": "Broccoli",
+					"upsell": 0
+				},
+				{
+					"id": 7215,
+					"key": "Variation",
+					"name": "No Sour Cream",
+					"upsell": 0
+				}
+			],
+			"image": "https://res.cloudinary.com/yay-lunch/image/upload/w_400/v1608060395/large_Chicken___Rice_Platter_oaahsn.jpg",
+			"categories": [
+				{ "id": 1, "category": "gluten_free" },
+				{ "id": 2, "category": "egg_free" }
+			],
+			"is_extra": false
 		},
 		{
 			"id": 3,
@@ -187,7 +215,7 @@
 	"orders": [
 		{
 			"id": 45560,
-			"deliveryDate": "2020-12-16T16:30:00.000Z",
+			"deliveryDate": "2020-12-17T16:30:00.000Z",
 			"notes": "This school requires silverware!",
 			"destination": {
 				"id": 12222,
@@ -268,7 +296,7 @@
 
 		{
 			"id": 45560,
-			"deliveryDate": "2020-12-16T15:50:00.000Z",
+			"deliveryDate": "2020-12-17T15:50:00.000Z",
 			"notes": "There is a severe nut allergy at this school, take extra care to not cross-contaminate.",
 			"destination": {
 				"id": 12222,
