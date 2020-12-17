@@ -381,14 +381,14 @@
 									"upsell": 200
 								}
 							],
-							"type": "meal"
+							"is_extra": false
 						},
 						{
 							"id": 61,
 							"name": "Fruit Cup",
 							"options": [],
 							"categories": [],
-							"type": "add-on"
+							"is_extra": true
 						}
 					]
 				},
@@ -413,14 +413,14 @@
 									"upsell": 0
 								}
 							],
-							"type": "meal"
+							"is_extra": false
 						},
 						{
 							"id": 4,
 							"name": "Chocolate Chip Cookie",
 							"options": [],
 							"categories": [],
-							"type": "add-on"
+							"is_extra": true
 						}
 					]
 				}
