@@ -185,16 +185,13 @@
 				}
 			],
 			"image": "https://res.cloudinary.com/yay-lunch/image/upload/w_400/v1608060395/large_Chicken___Rice_Platter_oaahsn.jpg",
-			"categories": [
-				{ "id": 1, "category": "gluten_free" },
-				{ "id": 2, "category": "egg_free" }
-			],
+			"categories": [],
 			"is_extra": false
 		}
 	],
 	"orders": [
 		{
-			"id": 45560,
+			"id": 45529,
 			"deliveryDate": "2020-12-17T16:30:00.000Z",
 			"notes": "This school requires silverware!",
 			"destination": {
@@ -430,7 +427,7 @@
 			]
 		},
 		{
-			"id": 45560,
+			"id": 430998,
 			"deliveryDate": "2020-12-19T16:30:00.000Z",
 			"notes": "This school requires silverware!",
 			"destination": {
