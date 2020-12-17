@@ -182,12 +182,6 @@
 					"key": "Make It Big",
 					"name": "Extra Protein",
 					"upsell": 200
-				},
-				{
-					"id": 7215,
-					"key": "Variation",
-					"name": "No Sour Cream",
-					"upsell": 0
 				}
 			],
 			"image": "https://res.cloudinary.com/yay-lunch/image/upload/w_400/v1608060395/large_Chicken___Rice_Platter_oaahsn.jpg",
