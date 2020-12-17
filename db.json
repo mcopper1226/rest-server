@@ -174,9 +174,7 @@
 			"details": "A genuine Idaho potato served with butter, cheddar-jack cheese, bacon, and sour cream.",
 			"price_to_vendor": 4,
 			"sides": [
-				"Chips",
-				"Salsa",
-				"Fresh Fruit"
+				"Apple"
 			],
 			"options": [
 				{
@@ -204,12 +202,6 @@
 				{ "id": 2, "category": "egg_free" }
 			],
 			"is_extra": false
-		},
-		{
-			"id": 3,
-			"vendorId": 95,
-			"name": "Cheese Pizza",
-			"week": "12-10-2020"
 		}
 	],
 	"orders": [
