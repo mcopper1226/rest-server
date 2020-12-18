@@ -119,7 +119,7 @@
 			"vendorId": 88,
 			"name": "Chocolate Chip Cookie",
 			"details": null,
-			"price_to_vendor": 1,
+			"price_to_vendor": 100,
 			"options": [],
 			"categories": [],
 			"is_extra": true
@@ -129,7 +129,7 @@
 			"vendorId": 88,
 			"name": "Fruit Cup",
 			"details": "Pineapple, canteloupe, strawberries.",
-			"price_to_vendor": 1,
+			"price_to_vendor": 100,
 			"options": [],
 			"categories": [],
 			"is_extra": true
@@ -316,6 +316,36 @@
 									"key": "Vegetarian Option",
 									"name": "No Chicken",
 									"upsell": 0
+								}
+							],
+							"is_extra": false
+						},
+						{
+							"id": 61,
+							"name": "Fruit Cup",
+							"is_extra": true
+						}
+					]
+				},
+				{
+					"id": 1234,
+					"luncher":{
+						"id": 1110234334,
+						"name": "Dwayne Johnson",
+						"vip": true,
+						"teacher": "Smith",
+						"grade": "K"
+					},
+					"order": [
+						{
+							"id": 88,
+							"name": "Bean and Cheese Burrito",
+							"options": [
+								{
+									"id": 91,
+									"key": "Gluten Free Option",
+									"name": "Corn Tortilla",
+									"upsell": 100
 								}
 							],
 							"is_extra": false
