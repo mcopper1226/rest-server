@@ -275,7 +275,7 @@
 		{
 			"id": 45560,
 			"deliveryDate": "2020-12-18T15:50:00.000Z",
-			"notes": "There is a severe nut allergy at this school, take extra care to not cross-contaminate.",
+			"notes": "There is a severe nut allergy at this school, take extra care not to cross-contaminate.",
 			"destination": {
 				"id": 12222,
 				"name": "Winding River Elementary School",
