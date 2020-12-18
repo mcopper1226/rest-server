@@ -192,11 +192,12 @@
 	"orders": [
 		{
 			"id": 45529,
-			"deliveryDate": "2020-12-17T16:30:00.000Z",
+			"deliveryDate": "2020-12-18T16:30:00.000Z",
 			"notes": "This school requires silverware!",
 			"destination": {
 				"id": 12222,
 				"name": "Hanover High School",
+				"abbr": "HH",
 				"groups": [
 					"K-3",
 					"4,5,6"
@@ -273,11 +274,12 @@
 
 		{
 			"id": 45560,
-			"deliveryDate": "2020-12-17T15:50:00.000Z",
+			"deliveryDate": "2020-12-18T15:50:00.000Z",
 			"notes": "There is a severe nut allergy at this school, take extra care to not cross-contaminate.",
 			"destination": {
 				"id": 12222,
 				"name": "Winding River Elementary School",
+				"abbr": "WRE",
 				"groups": [
 					"K-5"
 				]
@@ -433,6 +435,7 @@
 			"destination": {
 				"id": 12222,
 				"name": "Hanover High School",
+				"abbr": "HH",
 				"groups": [
 					"K-3",
 					"4,5,6"
