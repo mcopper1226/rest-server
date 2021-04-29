@@ -1134,6 +1134,101 @@
 					"room": "Black Brown Spirit Polar",
 					"meals": [
 					  {
+						"id": 354,
+						"luncher": 32,
+						"items": [
+						  {
+							"id": 9,
+							"price": 599,
+							"item": {
+							  "id": 9,
+							  "name": "Grilled Cheese + Tomato Soup",
+							  "display_name": "Grilled Cheese +  Soup",
+							  "details": "All natural cheddar and swiss blend on sourdough bread, served with house tomato soup",
+							  "with": "Fresh Fruit",
+							  "ingredients": null,
+							  "vendor_id": 3,
+							  "price": 5.99,
+							  "price_to_vendor": 4,
+							  "is_extra": false,
+							  "created_at": "2021-04-20T20:31:01.000000Z",
+							  "updated_at": "2021-04-20T20:31:01.000000Z",
+							  "deleted_at": null,
+							  "special_treatment": null
+							},
+							"is_extra": false,
+							"options": [
+							  {
+								"id": 190,
+								"item_meal_id": 499,
+								"option_id": 12,
+								"price": 125,
+								"discount_amount": null,
+								"total": null,
+								"created_at": "2021-04-23T13:15:32.000000Z",
+								"updated_at": "2021-04-23T13:15:32.000000Z",
+								"option": {
+								  "id": 12,
+								  "name": "Bowl of Tomato Soup",
+								  "item_id": 9,
+								  "default": false,
+								  "price": 1.25,
+								  "price_to_vendor": 0.75,
+								  "weight": 0,
+								  "option_group_id": 8,
+								  "created_at": "2021-04-21T00:03:26.000000Z",
+								  "updated_at": "2021-04-21T00:03:26.000000Z"
+								}
+							  },
+							  {
+								"id": 191,
+								"item_meal_id": 499,
+								"option_id": 14,
+								"price": 200,
+								"discount_amount": null,
+								"total": null,
+								"created_at": "2021-04-23T13:15:32.000000Z",
+								"updated_at": "2021-04-23T13:15:32.000000Z",
+								"option": {
+								  "id": 14,
+								  "name": "GF Bread",
+								  "item_id": 9,
+								  "default": false,
+								  "price": 2,
+								  "price_to_vendor": 1.5,
+								  "weight": 0,
+								  "option_group_id": 9,
+								  "created_at": "2021-04-21T00:03:27.000000Z",
+								  "updated_at": "2021-04-21T00:03:27.000000Z"
+								}
+							  }
+							]
+						  },
+						  {
+							"id": 47,
+							"price": 200,
+							"item": {
+							  "id": 47,
+							  "name": "Route 11 Potato Chips",
+							  "display_name": "Rt. 11 Chips",
+							  "details": "Bag of Route 11 potato chips",
+							  "with": null,
+							  "ingredients": null,
+							  "vendor_id": 3,
+							  "price": 2,
+							  "price_to_vendor": 1.5,
+							  "is_extra": true,
+							  "created_at": "2021-04-21T00:26:45.000000Z",
+							  "updated_at": "2021-04-21T00:26:45.000000Z",
+							  "deleted_at": null,
+							  "special_treatment": null
+							},
+							"is_extra": true,
+							"options": []
+						  }
+						]
+					  },
+					  {
 						"id": 512,
 						"luncher": 37,
 						"items": [
@@ -1668,107 +1763,6 @@
 								"total": null,
 								"created_at": "2021-04-23T13:58:27.000000Z",
 								"updated_at": "2021-04-23T13:58:27.000000Z",
-								"option": {
-								  "id": 14,
-								  "name": "GF Bread",
-								  "item_id": 9,
-								  "default": false,
-								  "price": 2,
-								  "price_to_vendor": 1.5,
-								  "weight": 0,
-								  "option_group_id": 9,
-								  "created_at": "2021-04-21T00:03:27.000000Z",
-								  "updated_at": "2021-04-21T00:03:27.000000Z"
-								}
-							  }
-							]
-						  },
-						  {
-							"id": 47,
-							"price": 200,
-							"item": {
-							  "id": 47,
-							  "name": "Route 11 Potato Chips",
-							  "display_name": "Rt. 11 Chips",
-							  "details": "Bag of Route 11 potato chips",
-							  "with": null,
-							  "ingredients": null,
-							  "vendor_id": 3,
-							  "price": 2,
-							  "price_to_vendor": 1.5,
-							  "is_extra": true,
-							  "created_at": "2021-04-21T00:26:45.000000Z",
-							  "updated_at": "2021-04-21T00:26:45.000000Z",
-							  "deleted_at": null,
-							  "special_treatment": null
-							},
-							"is_extra": true,
-							"options": []
-						  }
-						]
-					  }
-					]
-				  },
-				  {
-					"name": "CH3-B",
-					"room": null,
-					"meals": [
-					  {
-						"id": 354,
-						"luncher": 32,
-						"items": [
-						  {
-							"id": 9,
-							"price": 599,
-							"item": {
-							  "id": 9,
-							  "name": "Grilled Cheese + Tomato Soup",
-							  "display_name": "Grilled Cheese +  Soup",
-							  "details": "All natural cheddar and swiss blend on sourdough bread, served with house tomato soup",
-							  "with": "Fresh Fruit",
-							  "ingredients": null,
-							  "vendor_id": 3,
-							  "price": 5.99,
-							  "price_to_vendor": 4,
-							  "is_extra": false,
-							  "created_at": "2021-04-20T20:31:01.000000Z",
-							  "updated_at": "2021-04-20T20:31:01.000000Z",
-							  "deleted_at": null,
-							  "special_treatment": null
-							},
-							"is_extra": false,
-							"options": [
-							  {
-								"id": 190,
-								"item_meal_id": 499,
-								"option_id": 12,
-								"price": 125,
-								"discount_amount": null,
-								"total": null,
-								"created_at": "2021-04-23T13:15:32.000000Z",
-								"updated_at": "2021-04-23T13:15:32.000000Z",
-								"option": {
-								  "id": 12,
-								  "name": "Bowl of Tomato Soup",
-								  "item_id": 9,
-								  "default": false,
-								  "price": 1.25,
-								  "price_to_vendor": 0.75,
-								  "weight": 0,
-								  "option_group_id": 8,
-								  "created_at": "2021-04-21T00:03:26.000000Z",
-								  "updated_at": "2021-04-21T00:03:26.000000Z"
-								}
-							  },
-							  {
-								"id": 191,
-								"item_meal_id": 499,
-								"option_id": 14,
-								"price": 200,
-								"discount_amount": null,
-								"total": null,
-								"created_at": "2021-04-23T13:15:32.000000Z",
-								"updated_at": "2021-04-23T13:15:32.000000Z",
 								"option": {
 								  "id": 14,
 								  "name": "GF Bread",
@@ -2530,62 +2524,6 @@
 							  "special_treatment": null
 							},
 							"is_extra": false,
-							"options": []
-						  }
-						]
-					  }
-					]
-				  },
-				  {
-					"name": "CH3-B",
-					"room": null,
-					"meals": [
-					  {
-						"id": 801,
-						"luncher": 32,
-						"items": [
-						  {
-							"id": 8,
-							"price": 1,
-							"item": {
-							  "id": 8,
-							  "name": "Baked Pasta Marinara",
-							  "display_name": "Baked Pasta",
-							  "details": "Elbow pasta baked with tomato basil sauce and provolone",
-							  "with": "Fresh Fruit",
-							  "ingredients": null,
-							  "vendor_id": 3,
-							  "price": 0.01,
-							  "price_to_vendor": 3.5,
-							  "is_extra": false,
-							  "created_at": "2021-04-20T20:20:37.000000Z",
-							  "updated_at": "2021-04-20T23:55:48.000000Z",
-							  "deleted_at": null,
-							  "special_treatment": null
-							},
-							"is_extra": false,
-							"options": []
-						  },
-						  {
-							"id": 48,
-							"price": 150,
-							"item": {
-							  "id": 48,
-							  "name": "ABC Chocolate Chip Cookie",
-							  "display_name": "CC Cookie",
-							  "details": "ABC chocolate chip cookie",
-							  "with": null,
-							  "ingredients": null,
-							  "vendor_id": 3,
-							  "price": 1.5,
-							  "price_to_vendor": 1,
-							  "is_extra": true,
-							  "created_at": "2021-04-21T00:27:46.000000Z",
-							  "updated_at": "2021-04-21T00:27:46.000000Z",
-							  "deleted_at": null,
-							  "special_treatment": null
-							},
-							"is_extra": true,
 							"options": []
 						  }
 						]
